@@ -33,6 +33,40 @@
             android:contentDescription="Quia Image"
             tools:src="@drawable/ic_flag_of_germany"
             />
+
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="10"
+                android:indeterminate="false"
+                android:minHeight="50dp"
+                android:progress="0"/>
+
+            
+            <TextView
+                android:id="@+id/txtProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:padding="15dp"
+                android:textSize="14sp"
+                android:text="1/10"/>
+
+        </LinearLayout>
+
+
     </LinearLayout>
 
 </ScrollView>

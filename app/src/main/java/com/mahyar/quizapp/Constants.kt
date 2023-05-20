@@ -15,6 +15,8 @@ object Constants {
             "Austeria",
             1
         )
+
+        questionList.add(que1)
         // 2
         val que2 = Question(
             2, "What country does this flag belong to?",
@@ -104,7 +106,7 @@ object Constants {
         )
 
         questionList.add(que10)
-        questionList.add(que1)
+
 
         return questionList
     }

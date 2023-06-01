@@ -52,7 +52,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        tools:text="Youe score is 9 out of 10"
+        tools:text="Your score is 9 out of 10"
         android:textColor="@android:color/secondary_text_dark"
         android:textSize="20sp" />
 

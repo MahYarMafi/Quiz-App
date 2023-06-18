@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Quiz App</string>
+    <string name="result">RESULT</string>
+    <string name="image">image</string>
+    <string name="hry_congratulations">Hry, Congratulations!</string>
+    <string name="finish">FINISH</string>
+    <string name="quiz_image">Quiz Image</string>
+    <string name="submit">SUBMIT</string>
 </resources>

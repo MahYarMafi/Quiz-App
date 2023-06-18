@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
-        android:text="RESULT"
+        android:text="@string/result"
         android:textColor="@color/white"
         android:textStyle="bold"
         android:textSize="25sp" />
@@ -24,7 +24,7 @@
         android:id="@+id/imgTrophy"
         android:layout_width="300dp"
         android:layout_height="400dp"
-        android:contentDescription="image"
+        android:contentDescription="@string/image"
         android:src="@drawable/ic_trophy" />
 
     <TextView
@@ -32,7 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Hry, Congratulations!"
+        android:text="@string/hry_congratulations"
         android:textColor="@color/white"
         android:textStyle="bold"
         android:textSize="25sp" />
@@ -62,7 +62,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:backgroundTint="@android:color/white"
-        android:text="FINISH"
+        android:text="@string/finish"
         android:textSize="18sp"
         android:textColor="@color/design_default_color_primary"
         android:textStyle="bold" />
